@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+/* COLORS 
+treact #6415ff;
+h1 #1A202C;
+text #243E63
+button text #F7FAFC 
+hover #5011CC 
+p #a0aec0 */
+
+.root {
+  padding: 32px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+.container {
+  padding: 80px 0;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+h1 {
+  font-size: 48px;
+  color: #1a202c;
+}
+
+h2 {
+  color: #243e63;
+  font-size: 24px;
+  font-weight: 900;
+
+  margin-inline-end: auto;
+}
+
+h2:hover {
+  color: #6415ff;
+}
+
+li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* NAVIGATION*/
+
+.treat__logo {
+  width: 40px;
+  margin: 0 12px 0 0;
+}
+
+.nav__link {
+  color: #243e63;
+  text-decoration: none;
+  margin: 0 24px;
+  padding: 0 0 4px;
+}
+
+.nav__link:hover {
+  color: #6415ff;
+  border-bottom: 2px solid #6415ff;
+}
+
+.login {
+  margin: 0 24px 0 48px;
+}
+
+.btn1 {
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f7fafc;
+  background: #6415ff;
+  padding: 12px 32px;
+}
+
+.btn1:hover {
+  background-color: #5011cc;
+}
+
+/* LANDING PAGE  */
+
+p {
+  font-size: 18px;
+  margin: 32px 0;
+  color: #243e63;
+}
+
+.landing__pages {
+  position: relative;
+  display: flex;
+  max-width: 1200px;
+  padding: 96px 0px;
+}
+
+.landing__pageL {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.landing__pageR {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.landing__customers {
+  width: 100%;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+.landing__img {
+  width: 100%;
+}
+
+.landing__p{
+  text-transform: uppercase;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.btn2 {
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 8px 8px 8px 0;
+  padding: 16px 0;
+  border-radius: 50px;
+  color: #f7fafc;
+  background: #6415ff;
+}
+
+.btn2:hover {
+  background-color: #5011cc;
+}
+.email {
+  position: relative;
+  max-width: 448px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+  min-width: 332px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.email__input {
+  border-style: none;
+  padding: 20px 0 20px 32px;
+
+  border-radius: 50px;
+}
+
+.email__button {
+  margin: 8px;
+  padding: 16px 32px;
+  width: 160px;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  width: calc(100% / 3);
+}
+/* FEATURES */
+
+/* QUALITY WORK  */
+
+/* STEPS */
+
+/* VALUES */
+
+/* PRICING  */
+
+/* TESTIMONIALS  */
