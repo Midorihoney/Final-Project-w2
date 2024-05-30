@@ -15,7 +15,8 @@ h1 #1A202C;
 text #243E63
 button text #F7FAFC 
 hover #5011CC 
-p #a0aec0 */
+p #a0aec0 
+email #E2E8F0*/
 
 .root {
   padding: 32px;
@@ -55,8 +56,11 @@ h2 {
   color: #243e63;
   font-size: 24px;
   font-weight: 900;
-
   margin-inline-end: auto;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 h2:hover {
@@ -67,6 +71,18 @@ li {
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
+}
+
+input {
+  font-size: 100%;
+  font-weight: 500;
+  font-family: inherit;
+  color: inherit;
+}
+
+.sub-header {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* NAVIGATION*/
@@ -108,7 +124,7 @@ li {
 
 /* LANDING PAGE  */
 
-p {
+.landing__p1 {
   font-size: 18px;
   margin: 32px 0;
   color: #243e63;
@@ -122,20 +138,28 @@ p {
 }
 
 .landing__pageL {
-  margin-left: auto;
-  margin-right: auto;
   width: 40%;
 }
 
 .landing__pageR {
-  margin-left: auto;
-  margin-right: auto;
   width: 60%;
+}
+
+.landing__bottom {
+  margin: 80px 0;
+}
+
+.landing__p2 {
+  text-transform: uppercase;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .landing__customers {
   width: 100%;
-  margin-top: 16px;
+  margin: 16px 0 0;
+  padding: 0 128px 0 0;
   opacity: 0.5;
 }
 
@@ -143,23 +167,17 @@ p {
   width: 100%;
 }
 
-.landing__p{
-  text-transform: uppercase;
-  color: #a0aec0;
-  font-size: 12px;
-  font-weight: 700;
-  opacity: 1;
-}
-
 .btn2 {
   border: none;
   font-weight: 700;
   font-size: 16px;
   margin: 8px 8px 8px 0;
+  width: 160px;
   padding: 16px 0;
   border-radius: 50px;
   color: #f7fafc;
   background: #6415ff;
+  cursor: pointer;
 }
 
 .btn2:hover {
@@ -172,25 +190,57 @@ p {
   justify-content: space-between;
   margin-right: 16px;
   min-width: 332px;
-  border: 2px solid red;
+  border: 2px solid #e2e8f0;
   border-radius: 50px;
+}
+
+.email:hover {
+  border: 2px solid #a0aec0;
+  border-radius: 50px;
+  transition: 300ms;
+  stroke-opacity: 1;
 }
 
 .email__input {
   border-style: none;
-  padding: 20px 0 20px 32px;
-
+  padding: 20px 0px 20px 32px;
   border-radius: 50px;
+  opacity: 0.5;
 }
 
-.email__button {
-  margin: 8px;
-  padding: 16px 32px;
-  width: 160px;
-  cursor: pointer;
+/* FEATURES */
+.black {
+  color: black;
+}
+.container {
+  padding: 96px;
+  text-align: center;
 }
 
-/* SERVICES */
+.features {
+  text-align: center;
+}
+
+.sub__header {
+  font-weight: 900;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.features__p {
+  width: 100%;
+  max-width: 576px;
+  color: #7c8ba1;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 16px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -200,8 +250,6 @@ p {
   display: flex;
   width: calc(100% / 3);
 }
-/* FEATURES */
-
 /* QUALITY WORK  */
 
 /* STEPS */
