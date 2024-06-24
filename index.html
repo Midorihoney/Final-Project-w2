@@ -12,17 +12,17 @@
 
 <body>
     <!-- NAV -->
-    <section>
+    <section class="pg_body">
         <nav class="container row">
             <img class="logo" src="./assets/logo.svg" alt="Treact logo">
             <h2>Treact</h2>
             <ul>
-                <li><a href="#" class="nav__link ">About</a></li>
-                <li><a href="#" class="nav__link ">Blog</a></li>
-                <li><a href="#" class="nav__link ">Pricing</a></li>
-                <li><a href="#" class="nav__link ">Contact Us</a></li>
-                <li><a href="#" class="nav__link login">Login</a></li>
-                <li><a href="" class="btn1">Sign Up</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="nav__link ">About</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="nav__link ">Blog</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="nav__link ">Pricing</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="nav__link ">Contact Us</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="nav__link login">Login</a></li>
+                <li><a href="https://treact.owaiskhan.me/#" class="btn1">Sign Up</a></li>
             </ul>
         </nav>
 
@@ -46,7 +46,7 @@
     </section>
 
     <!-- FEATURES -->
-    <main>
+    <main class="pg_body">
         <section>
             <div class="feature">
                 <h3 class="purple">Features</h3>
@@ -199,9 +199,14 @@
                     <div class="value__grid">
                         <div class="grid">
                             <div class="label">
-                                <figure>
-                                    <img class="value-dot" src="./assets/Screenshot 2024-06-21 190438.png" alt="">
-                                </figure>
+                                <div class="value-dot">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-dollar-sign">
+                                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>
+                                </div>
                                 <span class="title">Affordable</span>
                             </div>
                             <p class="value__p">We promise to offer you the best rate we can - at par with the industry
@@ -209,9 +214,14 @@
                         </div>
                         <div class="grid2">
                             <div class="label">
-                                <figure>
-                                    <img class="value-dot2" src="./assets/Screenshot 2024-06-21 190451.png" alt="">
-                                </figure>
+                                <div class="value-dot2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="#feb2b2" stroke="#9B2C2C" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-briefcase">
+                                        <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                </div>
                                 <span class="title">Professionalism</span>
                             </div>
                             <p class="value__p">We assure you that our templates are designed and created by
@@ -357,14 +367,17 @@
                                     <p class="list__title">Founder, EventsNYC</p>
                                 </div>
                                 <div class="test-container">
-                                    <button class="bubble"><svg fill="none" stroke="#6415ff" stroke-linecap="round"
+                                    <button class="bubble">
+                                        <svg fill="none" stroke="#6415ff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="2" viewBox="0 0 24 24">
-                                            <path d="M14 517 7m0 01-7 7m7 7H3"></path>
+                                            <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                                         </svg>
                                     </button>
-                                    <button class="bubble"><svg fill="black" stroke="red" stroke-linecap="round"
+                                    <div class="divider"></div>
+                                    <button class="bubble">
+                                        <svg fill="none" stroke="#6415ff" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-width="2" viewBox="0 0 24 24">
-                                            <path d="M14 517 7m0 01-7 7m7 7H3"></path>
+                                            <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                         </svg>
                                     </button>
                                 </div>
@@ -376,76 +389,98 @@
 
         <!-- FAQS -->
         <section id="faqs">
-            <div class="container row">
-                <h3 class="purple sub__title">Faqs</h3>
-                <h1>You have <span class="purple">Questions ?</span></h1>
-                <p>And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div>
+                <div class="price">
+                    <h3 class=" faq purple sub__title">Faqs</h3>
+                    <h1>You have <span class="purple">Questions ?</span></h1>
+                    <p>And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
             </div>
         </section>
+
         <!-- GET STARTED -->
         <section id="getstarted">
             <div class="container row contact">
-                <h2>Developers all over the world are happily using Treact.</h2>
-                <button type="submit" class="btn7">Get Started</button>
-                <button type="submit" class="btn8">Contact Us</button>
+                <div class="getstart">
+                    <h2 class="get">Developers all over the world are happily using Treact.</h2>
+                    <button type="submit" class="btn7">Get Started</button>
+                    <button type="submit" class="btn8">Contact Us</button>
+                </div>
             </div>
         </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <section id="footer">
-            <div class="container row">
-                <div class="container2">
-                    <h5>Main</h5>
-                    <ul>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">FAQs</a></li>
-                        <li><a href="">Support</a></li>
-                        <li><a href="">About Us</a></li>
-                    </ul>
-                </div>
-                <h5>Product</h5>
-                <ul>
-                    <li><a href="">Log In</a></li>
-                    <li><a href="">Personal</a></li>
-                    <li><a href="">Business</a></li>
-                    <li><a href="">testimonials-list</a></li>
-                </ul>
-                <h5>Press</h5>
-                <ul>
-                    <li><a href="">Logos</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Stories</a></li>
-                    <li><a href="">Office</a></li>
-                </ul>
-                <h5>Team</h5>
-                <ul>
-                    <li><a href="">Career</a></li>
-                    <li><a href="">Founders</a></li>
-                    <li><a href="">Culture</a></li>
-                    <li><a href="">Onbording</a></li>
-                </ul>
-                <h5>Legal</h5>
-                <ul>
-                    <li><a href="">GDPR</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms of Service</a></li>
-                    <li><a href="">Disclaimer</a></li>
-                </ul>
-            </div>
-            <div class="bottom_line"></div>
 
-            <div class="container row">
+<!-- FOOTER -->
+<footer>
+    <section id="footer">
+        <div class="container row">
+            <div class="foot">
+                <h5>Main</h5>
+                <div>
+                    <a href="" class="foot-link">Blog</a>
+                    <a href="" class="foot-link">FAQs</a>
+                    <a href="" class="foot-link">Support</a>
+                    <a href="" class="foot-link">About Us</a>
+                </div>
+            </div>
+            <div class="foot">
+                <h5>Product</h5>
+                <div>
+                    <a href="" class="foot-link">Log In</a>
+                    <a href="" class="foot-link">Personal</a>
+                    <a href="" class="foot-link">Business</a>
+                    <a href="" class="foot-link">Testimonials-list</a>
+                </div>
+            </div>
+            <div class="foot">
+                <h5>Press</h5>
+                <div>
+                    <a href="" class="foot-link">Logos</a>
+                    <a href="" class="foot-link">Events</a>
+                    <a href="" class="foot-link">Stories</a>
+                    <a href="" class="foot-link">Office</a>
+                </div>
+            </div>
+            <div class="foot">
+                <h5>Team</h5>
+                <div>
+                    <a href="" class="foot-link">Career</a>
+                    <a href="" class="foot-link">Founders</a>
+                    <a href="" class="foot-link">Culture</a>
+                    <a href="" class="foot-link">Onbording</a>
+                </div>
+            </div>
+            <div class="foot">
+                <h5>Legal</h5>
+                <div>
+                    <a href="" class="foot-link">GDPR</a>
+                    <a href="" class="foot-link">Privacy Policy</a>
+                    <a href="" class="foot-link">Terms of Service</a>
+                    <a href="" class="foot-link">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container row bottom_line"></div>
+        <div class="container row">
+            <div class="bottom_container container row">
                 <a href="#"><img class="logo" src="./assets/logo-light.svg" alt="Treact light logo"></a>
                 <h2>Treact Inc.</h2>
-                <p>&copy; 2024 Treact Inc. All Rights Reserved.</p>
-                <a href="https://facebook.com"><img class="logo" src="./assets/facebook.png" alt="Facebook"></a>
-                <a href="https://twitter.com"><img class="logo" src="./assets/twitter.png" alt="Twitter"></a>
-                <a href="https://youtube.com"><img class="logo" src="./assets/youtube.png" alt="YouTube"></a>
+                <span class="copyright">&copy; 2024 Treact Inc. All Rights Reserved.</span>
+                <ul>
+                    <li><a href="https://facebook.com"><img class="logo" src="./assets/facebook.png" alt="Facebook"></a>
+                    </li>
+                    <li><a href="https://twitter.com"><img class="logo" src="./assets/twitter.png" alt="Twitter"></a>
+                    </li>
+                    <li><a href="https://youtube.com"><img class="logo" src="./assets/youtube.png" alt="YouTube"></a>
+                    </li>
+                </ul>
             </div>
-        </section>
-    </footer>
-</body>
+        </div>
+    </section>
+</footer>
 
+</body>
 </html>
